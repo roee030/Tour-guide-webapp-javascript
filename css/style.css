@@ -134,10 +134,7 @@ body{
     border-radius: 100px;
     transition: all 0.2s;
     position: relative;
-    animation-name: moveInBottom;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-out;
-    animation-delay: .75s;
+    animation: moveInBottom 0.5s ease-out 0.75s;
     animation-fill-mode: backwards;
 }
 .btn:hover{
@@ -174,4 +171,8 @@ body{
 .btn:hover::after{
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
+}
+
+.btn--animated{
+    animation: mo
 }
