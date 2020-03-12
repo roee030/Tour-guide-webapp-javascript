@@ -1,0 +1,23 @@
+{
+  "name": "tour-guide-webapp-javascript",
+  "version": "1.0.0",
+  "description": "web app for  company that offer tours.",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "node-sass": "^4.13.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/roee030/Tour-guide-webapp-javascript.git"
+  },
+  "author": "Roee",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/roee030/Tour-guide-webapp-javascript/issues"
+  },
+  "homepage": "https://github.com/roee030/Tour-guide-webapp-javascript#readme"
+}
