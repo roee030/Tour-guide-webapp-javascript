@@ -56,7 +56,7 @@
     &__radio-input{
         display: none;
     }
-    
+
     &__radio-label{
         font-size: $default-font-size;
         cursor: pointer;
@@ -77,8 +77,8 @@
         &::after{
             content: "";
             display: block;
-            height: 1.3rem;
-            width: 1.3rem;
+            height: 1.5rem;
+            width: 1.5rem;
             border-radius: 50%;
             position: absolute;
             top: 50%;
@@ -86,7 +86,7 @@
             transform: translate(-50% , -50%);
             background-color: $color-primary;
             opacity: 0;
-            transition:  opacity .3s;
+            transition:  opacity .5s;
         }
     }
 
