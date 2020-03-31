@@ -30,6 +30,7 @@
         display: table;
         overflow: hidden;
         transition: all .5s .2s;
+       
     }
 
     &__close{
@@ -67,7 +68,8 @@
         @include respond(tab-port){
             width: 100%;
             display: block;
-           
+            padding: 0;
+            text-align: center;
         }
     }
 
@@ -89,5 +91,9 @@
         column-gap: 4rem;
         column-rule: 1px solid $color-grey-dark-2;
         hyphens: auto;
+        @include respond(tab-port){
+            margin: 0.3rem;
+        }
+        
     }
 }

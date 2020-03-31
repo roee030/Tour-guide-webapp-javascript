@@ -388,6 +388,7 @@ body {
         transform: translate(0);
         width: 100%;
         padding: 7rem 4rem 4rem 4rem; }
+      .card__price-box {
         margin-bottom: 1rem; }
       .card__price-value {
         font-size: 6rem; } }
@@ -603,7 +604,9 @@ body {
     @media (max-width: 56.25em) {
       .popup__right {
         width: 100%;
-        display: block; } }
+        display: block;
+        padding: 0;
+        text-align: center; } }
   .popup__img {
     display: inline-block;
     width: 100%; }
@@ -617,6 +620,9 @@ body {
     column-gap: 4rem;
     column-rule: 1px solid #999;
     hyphens: auto; }
+    @media (max-width: 56.25em) {
+      .popup__text {
+        margin: 0.3rem; } }
 
 .row {
   max-width: 114rem;
